@@ -1,6 +1,6 @@
 /* Linked list sample code 23.02.2018
 *  Code is based from the http://www.learn-c.org/en/Linked_lists  
-*  Halil DURMUÞ ITU BLG221
+*  Halil DURMUÃž ITU BLG221
 */
 
 #include <stdio.h>
@@ -221,6 +221,7 @@ int main(void)
 
 	add_begin(&head, 4);
 	add_begin(&head, 12);
+	add_begin(&head, 13);
 	
 	add_end(head, 298);
 	add_end(head, 47);
